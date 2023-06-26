@@ -30,4 +30,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: paulyk/ga-demo:latest
-          platforms: linux/amd64
+          platforms: linux/arm64
