@@ -25,7 +25,7 @@ jobs:
     - name: Build and push Docker imageq
       uses: docker/build-push-action@v3
       with:
-        context: ./SKD.Server
+        context: ./
         push: true
         tags: paulyk/skd-server:latest
         platforms: linux/amd64,linux/arm64
